@@ -23,7 +23,7 @@
     --main-color2:#c120a8;
     --hover-box-shadow:rgba(247, 242, 242, 0.19)0px 10px 20px,
                        rgba(251, 246, 246, 0.23)0px 6px 6px;     
-    --gradient-white-bg2:linear-gradientto(to right, #3c4d5a 0%, #505456 100%);                                                          
+    --gradient-white-bg2:linear-gradient(to right, #3c4d5a 0%, #505456 100%);                                                          
 }
 
 a{
@@ -763,6 +763,82 @@ section{
     color: var(--font-color);
 }
 
+
+/* ==================== Testimonial section css code ============================ */
+
+.testimonial .swiper{
+    padding-bottom: 3.5rem;
+}
+
+.testimonial .swiper-slide{
+    height: auto;
+}
+
+.testi-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+    padding: 2rem;
+    background: var(--gradient-white-bg2);
+    border: .2rem solid var(--main-color);
+    border-radius: 2rem;
+    box-shadow: rgba(0,0,0,0.18)0px 2px 4px;
+}
+
+.testi-box > i{
+    font-size: 2.5rem;
+    color: var(--main-color);
+}
+
+.testi-box p{
+    color: var(--font-color);
+    font-size: .95rem;
+    flex: 1;
+}
+
+.testi-profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testi-img{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    background: var(--gradient-color-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+.testi-info h3{
+    color: var(--font-color);
+    font-size: 1rem;
+}
+
+.testi-info span{
+    color: var(--font-color);
+    font-size: .8rem;
+    font-weight: 200;
+}
+
+.testimonial .swiper-pagination-bullet{
+    background: #fff;
+    opacity: .5;
+    width: 10px;
+    height: 10px;
+}
+
+.testimonial .swiper-pagination-bullet-active{
+    background: var(--main-color);
+    opacity: 1;
+}
 
 /* ==================== Contact section css code ============================ */
 

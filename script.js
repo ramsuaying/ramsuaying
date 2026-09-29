@@ -67,7 +67,7 @@ var mixer = mixitup('.portfolio-gallery',{
 
 // Initialize swiperjs 
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = document.querySelector(".mySwiper") && new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
     pagination: {
